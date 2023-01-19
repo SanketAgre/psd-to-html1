@@ -1,0 +1,75 @@
+@media(max-width: 1100px){
+    .historycarousel{
+        padding: 0 50px;
+    }
+    .climb{
+        padding: 10px 20px;
+        display: block;
+    }
+}
+
+@media(max-width: 768px){
+    .los{
+        font-size: 50px;
+
+    }
+    .mount{
+        font-size: 50px;
+
+    }
+    .historycarousel{
+            padding: 0 30px;
+            margin-top: 100px;
+    }
+
+    .climb{
+        padding: 10px 20px;
+        display: block;
+    }
+    .tabs {
+        padding: 10px;
+    }
+    .scheduletable {
+         margin: 50px 20px;
+    }
+    #footer {
+        background-color: #364259;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .navbar {
+        display: block;
+    }
+    .toggle-button{
+        display: flex;
+    }
+    .navItom{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #363d49;
+
+    }
+    .navItom ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navItom li{
+        width: 100%;
+        text-align: center;
+    }
+    .navItom ul li {
+        padding: 21px 40px;
+    }
+    .navItom ul li a{
+        font-size: 40px;
+        padding: 8px 20px;
+        border-radius: 20px;
+    }
+    .navItom.active {
+        display: flex;
+    }
+}
